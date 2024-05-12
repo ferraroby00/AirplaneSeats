@@ -1,0 +1,18 @@
+.footer {
+  background: linear-gradient(to right, #003f7f, #0066cc);
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  margin-top: 15px;
+}

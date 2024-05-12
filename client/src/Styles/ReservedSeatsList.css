@@ -1,0 +1,40 @@
+.seat-list {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  position: fixed;
+  left: 75%;
+  width: fit-content;
+}
+
+.seat-list h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.seat-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.seat-list li {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.scroll-container {
+  height: 300px;
+  overflow-y: auto; 
+  width: 260px;
+}
+
+.bi-cart-check {
+  padding-right: 5px;
+}
+
+.list-group-item {
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 10px;
+}

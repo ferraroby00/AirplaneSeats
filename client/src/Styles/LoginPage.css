@@ -1,0 +1,163 @@
+.wrapper {
+  background: #f0f0f0;
+  padding: 0 20px 0 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.cont-row {
+  width: 900px;
+  height: 550px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.left-image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 10px 0 0 10px;
+  width: 440px;
+  padding-left: 0;
+  padding-right: 0;
+  height: 550px;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.text p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.right-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  gap: 10px;
+}
+.sign-in {
+  padding-top: 40px;
+}
+
+.input-box {
+  width: 330px;
+  box-sizing: border-box;
+}
+
+.input-box header {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0 10px 0 10px;
+}
+
+.input {
+  height: 45px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  margin-bottom: 20px;
+  color: #40414a;
+}
+
+.input-box .input-field label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.input-field .input:focus,
+.input-field .input:valid {
+  border-bottom: 1px solid #743ae1;
+}
+
+.submit {
+  border: none;
+  outline: none;
+  height: 45px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #003f7f, #0066cc);
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+}
+
+header {
+  font-size: 30px;
+}
+
+.sign-in {
+  text-align: center;
+  font-size: small;
+  margin-top: 25px;
+}
+
+span a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+  transition: 0.5s;
+}
+
+span a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.btn-back {
+  border-width: 3px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
+  border-color: #0066cc;
+}
+
+.link-back {
+  position: relative;
+  left: 44%;
+  top: -8%;
+}
+
+.btn-back:hover,
+.btn-back:active {
+  background-color: white !important;
+  border-color: #003f7f !important;
+}
+
+.back-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.back-icon {
+  color: #0066cc;
+}
+
+.back-icon:hover {
+  color: #003f7f;
+}

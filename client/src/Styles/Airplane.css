@@ -1,0 +1,111 @@
+.main-seats {
+  display: flex;
+  justify-content: end;
+}
+
+.seats-grid {
+  margin-top: 160px;
+  margin-bottom: 80px;
+  display: flex;
+  width: fit-content;
+  justify-content: flex-end;
+}
+
+.grid-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  width: fit-content;
+  margin-bottom: 30px;
+}
+
+
+.seat-row {
+  display: flex;
+  gap: 25px;
+}
+
+.seat {
+  width: 50px;
+  height: 54px;
+  border-radius: 13px 13px 2px 2px;
+  border-bottom: 4px solid black;
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.plane-border {
+  border: 1px solid rgb(0, 0, 0);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.btn-danger > {
+  margin-top: 5px;
+}
+
+.seat.btn-danger::after {
+  font-family: "Bootstrap-icons";
+  content: "\F47B";
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+}
+
+.line {
+  display: flex;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.line-row {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  padding-bottom: 30px;
+}
+
+.plane-title {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.seat.btn-danger::after {
+  font-family: "Bootstrap-icons";
+  content: "\F47B";
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+}
+
+.spinner-seats{
+  width: 50px;
+  height:50px;
+  top: 1%;
+}
+
+
+.spinner-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 9999;
+}
+

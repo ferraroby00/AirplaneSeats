@@ -1,0 +1,32 @@
+#left-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: fit-content;
+  background-color: rgba(222, 225, 225, 0.429);
+}
+
+.sidebar-title {
+  font-size: 23px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+
+.title-seats{
+  font-size: 19px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.separator {
+  border-top: 1.5px solid rgba(0, 0, 0, 0.6);
+  margin: 30px 0 15px 10px;
+  width: 285px;
+}
+
+.below-nav {
+  padding-top: 5rem;
+}

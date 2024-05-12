@@ -1,0 +1,36 @@
+.legend {
+  font-size: 15px;
+}
+
+.custom-button {
+  border-color: rgba(0, 0, 0, 0.905) !important;
+}
+
+.custom-button.occupied {
+  background-color: #ff0000;
+}
+
+.custom-button.reserved {
+  background-color: #ffee00;
+}
+
+.seat-legend {
+  width: 37px;
+  height: 40px;
+  border-radius: 13px 13px 2px 2px;
+  border-bottom: 4px solid black;
+}
+
+.seat-type {
+  display: inline;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.legend-cont {
+  padding-top: 20px;
+  padding-left: 20px;
+  display: flex;
+  gap: 13px;
+}
+
